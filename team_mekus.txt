@@ -16,8 +16,12 @@ to RockPaperScissors().main()
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/serohijos.py#L64-L65
 
 Suggestion:
-
 - Use 2 spaces for indentation consistently throughout the code.
 Follow the Coding Guideline: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_176#slide=id.g30ae8cef28b_0_176
+- Every pull request must be approved by at least one reviewer before merging.
+https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30181ea9dc7_0_0#slide=id.g30181ea9dc7_0_0
 
-- Using brief one-liner docstrings can be improved by clear inputs/outputs and behavior if used by others.
+Use guard clause over if-else.
+https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/main.py#L77-L80
+https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/dazo.py#L115-L119
+Follow the Coding Guidelines:https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_71#slide=id.g30ae8cef28b_0_71
