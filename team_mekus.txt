@@ -20,17 +20,7 @@ https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b7
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/dazo.py#L115-L119
 Follow the Coding Guidelines:https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_71#slide=id.g30ae8cef28b_0_71
 
-Suggestion:
-- Use 2 spaces for indentation consistently throughout the code.
-Follow the Coding Guidelines: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_176#slide=id.g30ae8cef28b_0_176
-- Every pull request must be approved by at least one reviewer before merging.
-https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30181ea9dc7_0_0#slide=id.g30181ea9dc7_0_0
-
-
-Use 2 spaces for indentation consistently throughout the code.
-Follow the Coding Guideline: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_176#slide=id.g30ae8cef28b_0_176
-
-Avoid Putting Unnecessary Code in Try Blocks
+7. Avoid Putting Unnecessary Code in Try Blocks
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/jundam.py#L79-L82
 - Instead validate each line individually
 try:
@@ -39,7 +29,7 @@ except ValueError:
     print("Invalid input for kills.")
     return
 
-Refactor magic values into constants
+8. Refactor magic values into constants
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/jundam.py#L79-L82
 
 EXIT_OPTION = "0"
@@ -51,3 +41,12 @@ if deaths == NO_DEATHS:
 if shots == NO_ATTEMPTS:
 
 See the sample refactored codes: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g31e92de329f_8_34#slide=id.g31e92de329f_8_34
+
+Suggestion:
+- Use 2 spaces for indentation consistently throughout the code.
+Follow the Coding Guidelines: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_176#slide=id.g30ae8cef28b_0_176
+- Every pull request must be approved by at least one reviewer before merging.
+https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30181ea9dc7_0_0#slide=id.g30181ea9dc7_0_0
+
+Output:
+- The menu code for each member executes successfully, but Serohijos's module has some errors.
