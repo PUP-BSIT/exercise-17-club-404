@@ -1,0 +1,30 @@
+Arroyo, John Matthew
+
+-> Missing 'C' in "ollaboration".
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/mamba/roldan.py#L57
+
+This line of code can be refactored, instead of this, initialize the 6 to the 
+constant EXIT_OPTION variable. (EXIT_OPTION = 6). Therefore the while loop is more readable.
+
+-> while user_input != EXIT_OPTION;
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/mamba/bernas.py#L98
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/mamba/buenacifra.py#L90
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/mamba/roldan.py#L92
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/mamba/tero.py#L93
+
+https://github.com/PUP-BSIT/exercise-15-mamba/blob/1054c43b70512de4acdf38bf1daa3ea64d7a691c/main.py#L8
+
+Delima, Justine 
+
+Console Error: ValueError
+
+-> The codes can be improved by implementing error handling. After inputting a 
+letter as my choice to menu, the console returns a "ValueError" which can be catched.
+
+-> The codes are working, there are some line of code that needs changes and 
+misspellings that needs to be corrected.
