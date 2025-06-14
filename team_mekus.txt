@@ -1,0 +1,4 @@
+This function duplicates the logic of existing methods and was never used. Removing it helps simplify the code and follow clean code practices.
+
+remove unused is_pokemon_unique() function
+https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/olazo.py#L234C5-L234C45
