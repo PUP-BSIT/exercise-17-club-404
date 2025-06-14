@@ -1,11 +1,23 @@
 This function duplicates the logic of existing methods and was never used. Removing it helps simplify the code and follow clean code practices.
 
-remove unused is_pokemon_unique() function
+Remove unused is_pokemon_unique() function
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/olazo.py#L234C5-L234C45
 
 Refactor: Extracted Magic Values into Constants
 https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/agulto.py#L40-L43
 
+Serohijos's module is not working at main.py when selecting "5"
+
+If the entry point of your game is the main() method, then in main.py, replace:
+https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/main.py#L60
+
+to RockPaperScissors().main()
+
+Keep just one set at the start of each loop iteration.
+https://github.com/PUP-BSIT/exercise-15-mekus/blob/b8b1e7000fe41f81d97c2cfbc66b790edfcd5fc3/mekus/serohijos.py#L64-L65
+
 Suggestion:
-Use 2 spaces for indentation consistently throughout the code.
+- Use 2 spaces for indentation consistently throughout the code.
 Follow the Coding Guideline: https://docs.google.com/presentation/d/1IpJfVIL8W1JWptSXPOAlSx2S1hHtdEoIbl7fGoyrWqU/edit?slide=id.g30ae8cef28b_0_176#slide=id.g30ae8cef28b_0_176
+
+- Using brief one-liner docstrings can be improved by clear inputs/outputs and behavior if used by others.
